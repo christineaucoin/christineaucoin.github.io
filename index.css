@@ -1,0 +1,250 @@
+.everything {
+   min-width: 320px;
+   margin: 0 auto;
+}
+
+body {
+    font-family: "Cardo", serif; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    padding: 26px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;  
+}
+
+.hero {
+    height: 100vh; 
+background-color: white;
+position: relative;
+}
+
+.hero a {
+    text-decoration: none; 
+    color: gray; 
+    font-size: 1.7rem;
+}
+
+.name {
+   font-size: 3.2rem;
+   text-align: center; 
+   color: gray; 
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.contact {
+    background-color: gray;
+    color: white; 
+padding: 10px 30px;
+    box-shadow: -11px 10px 36px 0px rgba(163,155,163,1);
+    border-radius: 7px; 
+    transition: transform 0.2s ease-in-out;
+    font-family: "Cardo", serif;
+}
+
+.desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    margin: auto 0;
+    color: gray;
+    font-size: 2rem;
+    padding: 40px 0;
+}
+
+.desc p {
+    padding: 40px 0;
+}
+
+.special {
+    font-weight: bold;
+    color: #fc0000;
+}
+
+.contact a {
+    color: white; 
+}
+
+.contact:hover {
+    transform: scale(0.96);
+}
+
+.Skills, .Resume {
+    padding-right: 10px; 
+}
+
+.Skills, .Resume, .Portfolio {
+    transition: transform 0.2s ease-in-out;
+}
+
+.Skills:hover {
+transform: translateY(-4px);
+display: inline-block;
+}
+
+.Resume:hover {
+    transform: translateY(-4px);
+    display: inline-block;
+    }
+
+.Portfolio:hover {
+ transform: translateY(-4px);
+ display: inline-block;
+ }    
+
+ .portfoliosection {
+    height: 90vh;
+background: linear-gradient(231deg, rgba(104,117,117,1) 79%, rgb(141, 147, 149) 100%);
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolioheader {
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #687575;
+    text-align: center; 
+    color: white; 
+    font-weight: bold;
+    padding: 26px 40px;
+    text-transform: uppercase;
+}
+
+.portfoliosection div {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    color: white;
+
+}
+
+.examples {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pic {
+    height: 70%;
+    width: 70%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pic:hover {
+    transform: scale(0.98);
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.civi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.civi a, .email a, .webform a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.exampletitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.exampledesc {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    margin: auto 0;
+}
+
+.coretitle {
+    text-transform: uppercase;
+}
+
+.skillssection {
+    height: 100vh;
+background-color: white;
+}
+
+.skillsheader {
+    justify-content: space-between; 
+    padding: 26px 40px;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsheader h1 {
+    font-size: 3.2rem;
+   text-align: center; 
+   color: gray; 
+   font-weight: bold;
+}
+
+.coreskills, .applications, .markupskills {
+   color:gray; 
+   text-decoration: underline;
+   font-size: 2rem;
+   font-family: "Cardo", serif; 
+}
+
+.subskill {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.subskill h2 {
+    margin-bottom: 0;
+}
+
+.subskill ul {
+    margin-top: 0;
+}
+
+.skillssection ul {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: gray;
+    line-height: 1.5;
+}
+
+.subskillstyling {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
