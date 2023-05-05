@@ -9,22 +9,6 @@ body {
     margin: 0;
 }
 
-@media only screen and (max-width:600px) {
-    .navbar {
-        padding: 10;
-    }
-    .hero {
-        height: auto; 
-    }
-
-    .hero a {
-        font-size: 14px;
-    }
-.exampletitle {
-    font-size: 18px;
-}
-}
-
 .navbar {
     display: flex;
     justify-content: space-around; 
@@ -32,6 +16,10 @@ body {
     box-sizing: border-box;
     text-align: center;
     align-items: center;  
+}
+
+.topleft {
+    display: flex;
 }
 
 .hero {
@@ -52,6 +40,7 @@ position: relative;
    color: gray; 
    font-weight: bold;
    text-transform: uppercase;
+   display: flex;
 }
 
 .contact {
@@ -172,8 +161,8 @@ background: linear-gradient(231deg, rgba(104,117,117,1) 79%, rgb(141, 147, 149) 
 
 .civi {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -194,6 +183,7 @@ background: linear-gradient(231deg, rgba(104,117,117,1) 79%, rgb(141, 147, 149) 
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: underline;
+    display:flex;
 }
 
 .exampledesc {
@@ -260,6 +250,47 @@ background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+.topleft {
+    flex-direction: column;
+}
+.name {
+    font-size: 3.0rem;
+    columns: 2;
+ }
+ .contact {
+padding: 5px 20px;
+}
+.contact .contactlink {
+    font-size: 1.3rem;
+}
+.exampletitle {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    .name {
+        font-size: 2.5rem;
+        columns: 2;
+     }
+     .contact {
+        padding: 3px 10px;
+        }
+        .contact .contactlink {
+            font-size: 1.1rem;
+        }
+.navbar .topleft a {
+    font-size: 1.4rem;
+}
+.desc p {
+font-size: 1.7rem;
+}
+.exampletitle {
+    display: none;
+}
 }
 
 
