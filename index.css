@@ -291,7 +291,73 @@ font-size: 1.7rem;
 .exampletitle {
     display: none;
 }
+.subskillstyling {
+    flex-wrap: wrap;
+}
 }
 
+@media only screen and (max-width: 500px) {
+    .name {
+        font-size: 2rem;
+    }
+    .contact .contactlink {
+        font-size: 0.9rem;
+    }
+    .contact {
+        padding: 2px 8px;
+        }
+        .navbar .topleft a {
+            font-size: 1.1rem;
+        }
+        .desc p {
+            font-size: 1.4rem;
+            }
+            .subskillstyling {
+                flex-wrap: wrap;
+            }
+}
 
+@media only screen and (max-width: 400px) {
+    .name {
+        font-size: 1.5rem;
+    }
+    .contact .contactlink {
+        font-size: 0.7rem;
+    }
+    .navbar .topleft a {
+        font-size: 0.9rem;
+    }
+    .desc p {
+        font-size: 1.2rem;
+        }
+        .portfolioheader {
+            font-size: 2.3rem;
+            padding: 26px 40px;
+        }
+        .examples .civi, .examples .email, .examples .webform {
+            justify-items: center;
+            align-items: center;
+            flex-direction: center;
+            flex-wrap: nowrap;
+        }
+        
+        .pic {
+            height: 90%;
+            width: 90%;
+            transition: transform 0.2s ease-in-out;
+        }
 
+        .skillsheader h1 {
+            font-size: 2rem;
+        }
+        
+        .coreskills, .applications, .markupskills {
+           font-size: 1.3rem;
+        }
+        .skillssection ul {
+            font-size: 0.9rem;
+        }
+        .subskillstyling {
+            flex-wrap: wrap;
+        }
+}
